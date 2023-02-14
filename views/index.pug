@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h1= title
+  center
+      table(width='100%', cellspacing='0', cellpadding='0', border='0', bgcolor='#F2F2F2')
+        thead
+            tr
+              th Age-Group
+               th % Distribution  
+            
+               
+        tbody
+            tr
+              td < 20
+              td #{data['20']}
+            tr
+              td 20 to 40
+              td #{data['40']}
+            tr
+              td 40 to 60
+              td #{data['60']}
+            tr
+              td > 60
+              td #{data['70']}
+               
+                
+               
+                
